@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact USTAWI Collective - Get in touch with our collective for partnerships, collaborations, and inquiries.">
+    <title>Contact Us | USTAWI Collective</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html" class="logo">
+            <img src="logo.jpg" alt="USTAWI Logo" style="height: 50px; width: auto; object-fit: contain;">
+            <span class="logo-text">USTAWI<span>.</span></span>
+        </a>
+        <ul class="nav-links">
+            <li><a href="projects.html">Research</a></li>
+            <li><a href="impact.html">Impact</a></li>
+            <li><a href="team.html">Collective</a></li>
+            <li><a href="collaborators.html">Collaborators</a></li>
+            <li><a href="publications.html">Publications</a></li>
+            <li><a href="partner.html" class="nav-cta">Fund Our Research</a></li>
+        </ul>
+    </nav>
+
+    <section class="page-header">
+        <div class="page-header-content">
+            <p class="section-tag">Contact Us</p>
+            <h1>Get in Touch</h1>
+            <p class="page-description">We welcome collaboration with researchers, policymakers, and organizations committed to helping girls, women, and children thrive.</p>
+        </div>
+    </section>
+
+    <section class="contact-section-page">
+        <div class="contact-content">
+            <div class="contact-info">
+                <h3>Contact Information</h3>
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <span class="contact-icon">📍</span>
+                        <div>
+                            <h4>Location</h4>
+                            <p>KEMRI-LSTM Collaboration<br>Nairobi, Kenya</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">✉️</span>
+                        <div>
+                            <h4>Email</h4>
+                            <p><a href="mailto:ustawi@kemri.go.ke">ustawi@kemri.go.ke</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">🔗</span>
+                        <div>
+                            <h4>Social</h4>
+                            <p><a href="https://twitter.com/KEMRI_Kenya" target="_blank">@KEMRI_Kenya</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-types">
+                    <h3>How Can We Help?</h3>
+                    <div class="contact-type">
+                        <h4>Research Partnerships</h4>
+                        <p>Interested in collaborating on research for girls, women, and children in Kenya.</p>
+                    </div>
+                    <div class="contact-type">
+                        <h4>Funding Inquiries</h4>
+                        <p>Learn about funding opportunities and how to support our research programs.</p>
+                    </div>
+                    <div class="contact-type">
+                        <h4>Media & Press</h4>
+                        <p>Interview requests, press inquiries, and media partnerships.</p>
+                    </div>
+                    <div class="contact-type">
+                        <h4>Join the Collective</h4>
+                        <p>Interested in becoming part of our collective of scientists.</p>
+                    </div>
+                </div>
+            </div>
+
+            <form class="contact-form" onsubmit="event.preventDefault(); alert('Thank you for your message! We will be in touch soon.');">
+                <h3>Send Us a Message</h3>
+                <div class="form-group">
+                    <label for="name">Your Name *</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address *</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="organization">Organization</label>
+                    <input type="text" id="organization" name="organization">
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject *</label>
+                    <select id="subject" name="subject" required>
+                        <option value="">Select a topic</option>
+                        <option value="partnership">Research Partnership</option>
+                        <option value="funding">Funding Inquiry</option>
+                        <option value="media">Media & Press</option>
+                        <option value="join">Join the Collective</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message *</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-brand">
+            <a href="index.html" class="logo">
+                <img src="logo.jpg" alt="USTAWI Logo" style="height: 50px; width: auto; object-fit: contain;">
+                <span class="logo-text" style="color: #F5E1C8;">USTAWI<span>.</span></span>
+            </a>
+            <p class="footer-tagline">Implementation science for thriving lives</p>
+        </div>
+        <ul class="footer-links">
+            <li><a href="projects.html">Research</a></li>
+            <li><a href="impact.html">Impact</a></li>
+            <li><a href="team.html">Collective</a></li>
+            <li><a href="collaborators.html">Collaborators</a></li>
+            <li><a href="publications.html">Publications</a></li>
+            <li><a href="partner.html">Partner With Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <p class="copyright">© 2025 USTAWI Collective, KEMRI-LSTM Collaboration. All rights reserved.</p>
+    </footer>
+</body>
+</html>
